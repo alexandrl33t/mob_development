@@ -14,7 +14,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String CHANNEL_ID = "ru.mirea.maximov.notificationapp";
+    private static final String CHANNEL_ID = "com.mirea.asd.notification.ANDROID";
     private int IDENTIFICATE_MSG = 0;
 
     @Override
@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void onClickSendNotification(View view) {
+
+    public void onClickNewMessageNotification(View view)
+    {
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         // Create PendingIntent
@@ -30,7 +32,10 @@ public class MainActivity extends AppCompatActivity {
         PendingIntent resultPendingIntent = PendingIntent.getActivity(this, 0, resultIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel notificationChannel = new NotificationChannel(CHANNEL_ID,"My Notifications", NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationChannel notificationChannel = new NotificationChannel(CHANNEL_ID,
+                    "MyNotifications",
+                    NotificationManager.IMPORTANCE_DEFAULT);
+                    // Configure the notification channel.
             notificationChannel.setDescription("Channel description");
             notificationChannel.enableLights(true);
             notificationChannel.setLightColor(Color.RED);

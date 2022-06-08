@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ru.mirea.maximov.toast", appContext.getPackageName());
+        assertEquals("ru.mirea.sulokhin.toastapp", appContext.getPackageName());
     }
 }

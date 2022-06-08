@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "734885082975",
+    "project_id": "practice7-e6f71",
+    "storage_bucket": "practice7-e6f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734885082975:android:7566dcf60594c4ea62e8ea",
+        "android_client_info": {
+          "package_name": "ru.mirea.maximov.basefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734885082975-b6eavhdhqtktkh1gkvmm0tfkopo377ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKfN0HO1UVwKzq3hYXvlpdhqm3McN3BuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734885082975-b6eavhdhqtktkh1gkvmm0tfkopo377ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734885082975:android:3b168e8ded92743d62e8ea",
+        "android_client_info": {
+          "package_name": "ru.mirea.maximov.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734885082975-b6eavhdhqtktkh1gkvmm0tfkopo377ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKfN0HO1UVwKzq3hYXvlpdhqm3McN3BuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734885082975-b6eavhdhqtktkh1gkvmm0tfkopo377ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
